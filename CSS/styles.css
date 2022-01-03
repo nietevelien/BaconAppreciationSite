@@ -1,3 +1,4 @@
+/* tag selectors */
 body {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Pig_farm_Vampula_9.jpg/1920px-Pig_farm_Vampula_9.jpg");
   background-repeat: no-repeat;
@@ -29,4 +30,23 @@ p{
   font-family: "Lucida handwriting", "Courier New", monospace;
   font-size: 50px;
   text-align: center
+}
+
+/* class selectors */
+
+.bacon_1{
+  background-color: red;
+}
+.bacon_2{
+  background-color: orange;
+}
+
+/*pseudo-classes */
+img:hover{
+  border-radius: 100%;
+}
+
+/*id selectors */
+#row_1{
+  color:blue;
 }
